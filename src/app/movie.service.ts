@@ -11,4 +11,12 @@ export class MovieService {
     return MOVIES;
   }
 
+  getMovieById(movieId: number) {
+    for (let i = 0; i <= MOVIES.length - 1; i++) {
+      if (MOVIES[i].id === movieId) {
+        return MOVIES[i];
+      }
+    }
+  }
+
 }
