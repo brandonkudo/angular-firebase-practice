@@ -8,6 +8,8 @@ import { Movie } from '../movie.model';
 })
 export class MarketplaceComponent {
   movies: Movie[] = [
-
+    new Movie("Requiem for a Dream","David Lynch",2000),
+    new Movie("Mulholland Drive","David Lynch", 2005),
+    new Movie("The Departed","Martin Scorcese",2008)
   ]
 }
