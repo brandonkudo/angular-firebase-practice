@@ -1,8 +1,6 @@
 <p>
   Marketplace
 </p>
-<div *ngFor="let movie of movies">
+<div *ngFor="let movie of movies" (click)="goToDetailPage(movie)">
   <p>{{movie.name}}</p>
-  <p>{{movie.director}}</p>
-  <p>{{movie.year}}</p>
 </div>
