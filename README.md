@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
+##Process
+
+I wanted to brush up on using both Firebase and Angular because I still don't feel 100% confident in my ability to use either.  My process basically entailed trying to redo the course material involving both and basically try to get a better grasp of how things work in it.  This project is still a bit buggy, but there are a lot of things I definitely understand a bit better after having done the same exercises multiple times and by myself.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
