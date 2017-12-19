@@ -1,0 +1,5 @@
+<p>Add new movie</p>
+<input #newName placeholder="Name">
+<input #newDirector placeholder="Director">
+<input #newYear placeholder="Year">
+<button (click)="submitForm(newName.value, newDirector.value, newYear.value); newName.value=''; newDirector.value=''; newYear.value=''">Add</button>

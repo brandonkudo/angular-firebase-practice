@@ -22,6 +22,6 @@ export class MarketplaceComponent implements OnInit {
 
 
   goToDetailPage(clickedMovie: Movie) {
-    this.router.navigate(['movies', clickedMovie.id]);
+    // this.router.navigate(['movies', clickedMovie.id]);
   };
 }

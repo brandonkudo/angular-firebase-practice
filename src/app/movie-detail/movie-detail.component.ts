@@ -24,7 +24,7 @@ export class MovieDetailComponent implements OnInit {
     this.route.params.forEach((urlParameters) => {
       this.movieId = parseInt(urlParameters['id']);
     });
-  this.movieToDisplay = this.movieService.getMovieById(this.movieId);
+  // this.movieToDisplay = this.movieService.getMovieById(this.movieId);
   }
 
 }
