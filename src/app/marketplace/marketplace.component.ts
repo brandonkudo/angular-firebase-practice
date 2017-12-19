@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Movie } from '../movie.model';
 import { Router } from '@angular/router';
 import { MovieService } from '../movie.service';
+import { FirebaseListObservable } from 'angularfire2/database';
 
 
 @Component({
@@ -11,7 +12,7 @@ import { MovieService } from '../movie.service';
   providers: [MovieService]
 })
 export class MarketplaceComponent implements OnInit {
-  movies: Movie[];
+  movies: FirebaseListObservable<any[]>;
 
   constructor(private router: Router, private movieService: MovieService) {}
 

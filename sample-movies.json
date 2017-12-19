@@ -1,0 +1,22 @@
+{
+  "movies": [
+    {
+      "name": "Requiem for a Dream",
+      "director": "David Lynch",
+      "year": "2000",
+      "id": "1"
+    },
+    {
+      "name": "Mulholland Drive",
+      "director": "David Lynch",
+      "year": "2005",
+      "id": "2"
+    },
+    {
+      "name": "The Departed",
+      "director": "Martin Scorcese",
+      "year": "2008",
+      "id": "3"
+    }
+  ]
+}

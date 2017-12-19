@@ -1,6 +1,6 @@
 <p>
   Marketplace
 </p>
-<div *ngFor="let movie of movies" (click)="goToDetailPage(movie)">
+<div *ngFor="let movie of movies | async" (click)="goToDetailPage(movie)">
   <p>{{movie.name}}</p>
 </div>
